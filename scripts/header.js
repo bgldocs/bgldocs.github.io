@@ -1,5 +1,5 @@
 const header = `
-    <header class="page-header-cont z-10 w-full h-header drop-shadow-2xl bg-white dark:bg-dark-mode">
+    <header class="page-header-cont z-10 w-full h-header drop-shadow-2xl bg-light-mode dark:bg-dark-mode">
         <div class="page-header grid grid-rows-2 h-full">
             <div class="flex items-center justify-between">
                 <a href="/"><img class="header-logo" src="./resources/bgl_white.png"></a>
@@ -10,8 +10,23 @@ const header = `
             </div>
             <div class="flex items-center justify-start gap-4">
                 <a class="header-icon" href="/"><img class="float-left" src="./resources/Icons/home.svg"> Home</a>
-                <a class="header-icon" href="/"><img class="float-left" src="./resources/Icons/book.svg"> Documentation</a>
+                <a class="header-icon" href="/docs/overview.html"><img class="float-left" src="./resources/Icons/book.svg"> Documentation</a>
             </div>
+        </div>
+    </header>
+    <header class="page-header-cont hidden md:block lg:block z-10 w-full h-header-lg drop-shadow-2xl bg-light-mode dark:bg-dark-mode">
+        <div class="page-header flex items-center justify-between gap-12 w-full h-full">
+            <div class="flex items-center gap-12">
+                <a href="/"><img class="header-logo" src="./resources/bgl_white.png"></a>
+                <div class="flex gap-4">
+                    <a class="header-icon" href="/"><img class="float-left" src="./resources/Icons/home.svg"> Home</a>
+                    <a class="header-icon" href="/docs/overview.html"><img class="float-left" src="./resources/Icons/book.svg"> Documentation</a>
+                </div>
+            </div>
+            <button class="basis-8 view-mode-lg">
+                <img class="dark-mode header-logo" src="./resources/Icons/dark_mode.svg">
+                <img class="light-mode header-logo hidden" src="./resources/Icons/light_mode.svg">
+            </button>
         </div>
     </header>
 `;

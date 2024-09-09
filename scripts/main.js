@@ -39,6 +39,7 @@ fetch("../site.toml")
 }).catch((e) => console.error(e));
 
 const view_mode_button = document.querySelector(".view-mode");
+const view_mode_button_lg = document.querySelector(".view-mode-lg");
 view_mode_button.addEventListener('click', (e) => {
     let list = document.querySelector("html").classList;
     if (list.length == 0) {
@@ -50,4 +51,16 @@ view_mode_button.addEventListener('click', (e) => {
         view_mode_button.querySelector('.dark-mode').classList.remove('hidden');
         document.querySelector("html").classList.remove('dark')
     }
-})
+});
+view_mode_button_lg.addEventListener('click', (e) => {
+    let list = document.querySelector("html").classList;
+    if (list.length == 0) {
+        view_mode_button_lg.querySelector('.light-mode').classList.remove('hidden');
+        view_mode_button_lg.querySelector('.dark-mode').classList.add('hidden');
+        document.querySelector("html").classList.add('dark')
+    }else {
+        view_mode_button_lg.querySelector('.light-mode').classList.add('hidden');
+        view_mode_button_lg.querySelector('.dark-mode').classList.remove('hidden');
+        document.querySelector("html").classList.remove('dark')
+    }
+});

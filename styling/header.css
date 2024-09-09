@@ -1,0 +1,40 @@
+.page-header {
+    padding: 16px;
+    row-gap: 1rem;
+}
+
+.view-mode {
+    width: 64px;
+}
+
+.header-logo {
+    width: 148px;
+    height: auto;
+    filter: brightness(15%);
+}
+
+html.dark .header-logo {
+    filter: brightness(100%);
+}
+
+.header-icon {
+    filter: brightness(40%);
+    color: white;
+}
+
+html.dark .header-icon {
+    filter: brightness(80%);
+}
+
+.header-icon:hover {
+    color: #dfdfdf;
+    filter: brightness(80%);
+    transition: 0.6s;
+}
+
+@media only screen and (min-width: 1024) {
+    .page-header {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}

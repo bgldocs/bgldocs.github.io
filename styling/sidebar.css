@@ -1,0 +1,114 @@
+.side-bar-cont {
+    transition: 0.25s;
+}
+
+.side-bar-move {
+    transition: 0.25s;
+    left: -105%;
+}
+
+.side-bar-open {
+    padding: 4px 12px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px black;
+    background: white;
+    border-radius: 5px 5px;
+    transition: 0.25s;
+}
+.side-bar-open:hover {
+    background: black;
+    color: white
+}
+
+html.dark .side-bar-open {
+    border: 1px solid white;
+    box-shadow: 0 0 3px white;
+    background: black;
+}
+
+html.dark .side-bar-open:hover {
+    background: white;
+    color: black
+}
+
+.side-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    position: relative;
+
+    &:before{
+      content:"";
+      display: inline-block;
+      width: 1px;
+      background: black;
+      position: absolute;
+      left:3px;
+      top:8px;
+      
+      height: calc(100% - 32px );
+  }
+}
+
+html.dark ul {
+    &:before {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        background: white;
+        position: absolute;
+        left: 3px;
+        top: 8px;
+        height: calc(100% - 32px);
+    }
+}
+
+.side-bar ul li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom:15px;
+    &:before{
+      content:"";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: white;
+      border: 1px solid black;
+      box-shadow: 0 0 4px black;
+      position: absolute;
+      left:0;
+      top:8px;
+      border-radius: 10px;
+    }
+}
+
+html.dark .side-bar ul li {
+    &:before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: black;
+        border: 1px solid white;
+        box-shadow: 0 0 4px white;
+        position: absolute;
+        left: 0;
+        top: 8px;
+        border-radius: 10px;
+    }
+}
+
+.side-bar ul li:hover {
+    
+}
+
+.side-bar li + li {
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .side-bar-cont {
+        transition: 0.0s;
+    }
+}
