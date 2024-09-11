@@ -1,0 +1,21 @@
+[sidebar]
+[sidebar.a]
+title = "Documentation"
+
+[sidebar.a.overview]
+title = "Overview"
+path = "/docs/a1.overview.html"
+
+[sidebar.b]
+title = "Introduction"
+[sidebar.b.intro]
+title = "Introduction to the Game Industry"
+path = "/docs/b1.intro.html"
+
+[sidebar.b.install]
+title = "Installing the Engine"
+path = "/docs/b2.installing_unity.html"
+
+[sidebar.b.engine]
+title = "Unity Interface"
+path = "/docs/b3.unity_interface.html"

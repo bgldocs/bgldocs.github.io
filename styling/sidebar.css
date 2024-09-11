@@ -106,9 +106,12 @@ html.dark .side-bar ul li {
 .side-bar li + li {
     margin-top: 1rem;
 }
-
 @media only screen and (min-width: 1024px) {
     .side-bar-cont {
         transition: 0.0s;
+    }
+
+    .content {
+        width: 80%;
     }
 }

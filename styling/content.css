@@ -1,3 +1,8 @@
+:root {
+    --link-color: #91bbff;
+    --link-color-hover: #c4dbff;
+}
+
 .content h1 {
     font-size: 48px;
 }
@@ -21,4 +26,22 @@
 
 .content ul ul li {
     list-style-type: circle;
+}
+
+.content a {
+    color: var(--link-color)
+}
+
+.content a:hover {
+    color: var(--link-color-hover)
+}
+
+.content {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        width: 80%;
+    }
 }
