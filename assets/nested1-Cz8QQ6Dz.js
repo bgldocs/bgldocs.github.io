@@ -1,0 +1,1 @@
+import"./main-BDDOnUmq.js";import{m as r}from"./marked.esm-DW35x3I8.js";r.use({breaks:!0,gfm:!0});fetch("./a1.overview.md").then(e=>e.text()).then(e=>{document.querySelector(".content").innerHTML=r.parse(e)}).catch(e=>console.error(e));
