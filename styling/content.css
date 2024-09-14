@@ -1,6 +1,11 @@
 :root {
     --link-color: #91bbff;
     --link-color-hover: #c4dbff;
+
+    --dark-mode: #000000;
+    --dark-mode2: #252525;
+    --light-mode: #ffffff;
+    --light-mode2: #eaeaea;
 }
 
 .content h1 {
@@ -28,12 +33,30 @@
     list-style-type: circle;
 }
 
+.content ol {
+    list-style-type:decimal;
+}
+
 .content a {
     color: var(--link-color)
 }
 
 .content a:hover {
     color: var(--link-color-hover)
+}
+
+.content pre {
+    border: 1px solid var(--dark-mode2);
+    background: var(--light-mode2);
+    padding: 8px;
+    padding-left: 12px;
+    border-radius: 10px;
+    text-wrap: wrap;
+}
+
+html.dark .content pre {
+    border: 1px solid var(--light-mode2);
+    background: var(--dark-mode2);  
 }
 
 .content {

@@ -890,10 +890,6 @@ video {
   height: 148px;
 }
 
-.h-header-lg {
-  height: 96px;
-}
-
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -2690,10 +2686,6 @@ video {
     top: 28rem;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -2716,10 +2708,6 @@ video {
 
   .lg\:top-header {
     top: 148px;
-  }
-
-  .lg\:block {
-    display: block;
   }
 
   .lg\:hidden {

@@ -28,3 +28,24 @@ path = "/docs/c2.functions.html"
 [sidebar.c.ifstatement]
 title = "If Statement"
 path = "/docs/c3.if.html"
+
+[sidebar.d]
+title = "Endless Runner Project"
+[sidebar.d.inputs]
+title = "Game Input"
+path = "/docs/d1.inputs.html"
+[sidebar.d.movement]
+title = "Moving the Player"
+path = "/docs/d2.movement.html"
+[sidebar.d.animator]
+title = "Player Animations"
+path = "/docs/d3.animator.html"
+[sidebar.d.rigidbody]
+title = "Rigidbody"
+path = "/docs/d4.rigidbody.html"
+[sidebar.d.colliders]
+title = "Colliders"
+path = "/docs/d5.colliders.html"
+[sidebar.d.tags]
+title = "Tags"
+path = "/docs/d6.tags.html"

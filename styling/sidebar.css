@@ -1,5 +1,6 @@
 .side-bar-cont {
     transition: 0.25s;
+    overflow-y: scroll;
 }
 
 .side-bar-move {
