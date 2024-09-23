@@ -49,3 +49,6 @@ path = "/docs/d5.colliders.html"
 [sidebar.d.tags]
 title = "Tags"
 path = "/docs/d6.tags.html"
+[sidebar.d.ui]
+title = "User Interface"
+path = "/docs/d7.ui.html"
