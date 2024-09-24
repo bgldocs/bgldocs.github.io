@@ -52,3 +52,6 @@ path = "/docs/d6.tags.html"
 [sidebar.d.ui]
 title = "User Interface"
 path = "/docs/d7.ui.html"
+[sidebar.d.sound]
+title = "Sound"
+path = "/docs/d8.sound.html"
