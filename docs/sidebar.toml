@@ -55,3 +55,15 @@ path = "/docs/d7.ui.html"
 [sidebar.d.sound]
 title = "Sound"
 path = "/docs/d8.sound.html"
+
+[sidebar.e]
+title = "Game Design"
+[sidebar.e.gamedesign]
+title = "Game Design 101"
+path = "/docs/e1.game-design.html"
+
+[sidebar.f]
+title = "Boss Fight Project"
+[sidebar.f.videos]
+title = "Boss Fight"
+path = "/docs/f1.boss-fight.html"
